@@ -86,6 +86,6 @@ find_points <- function(glorys_grid, survey_grid, km_thresh = 10) {
 }
 
 filtered_temp_grid <- find_points(locs_1, grid)
-saveRDS(filtered_temp_grid, file="cmems_mod_glo_phy_my_WCBTS.rds")
+saveRDS(filtered_temp_grid, file="grids/cmems_mod_glo_phy_my_WCBTS.rds")
 filtered_pp_grid <- find_points(pp, grid)
-saveRDS(filtered_pp_grid, file="cmems_obs-oc_glo_bgc_WCBTS.rds")
+saveRDS(filtered_pp_grid, file="grids/cmems_obs-oc_glo_bgc_WCBTS.rds")
