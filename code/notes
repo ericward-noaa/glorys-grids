@@ -1,0 +1,8 @@
+Notes:
+
+- Eric's initial code is all Python; this is meant to make it easier for R users
+- difficult to combine these scripts into a general function because: each dataset has
+  - unique variables 
+  - unique timestamps
+  - unique time origins
+  
