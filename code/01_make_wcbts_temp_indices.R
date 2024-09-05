@@ -17,7 +17,7 @@ cm <- import("copernicusmarine")
 
 #copernicusmarine subset -i cmems_mod_glo_phy_my_0.083deg_P1M-m -x -126 -X -115 -y 32 -Y 50 -z 120. -Z 150. -v thetao -t 1994-01-01 -T 2024-08-20 -o ./copernicus-data -f glorys_data_for_hake_temperature.nc
 
-grid <- readRDS("cmems_mod_glo_phy_my_WCBTS.rds")
+grid <- readRDS("grids/cmems_mod_glo_phy_my_WCBTS.rds")
 grid$XY <- paste(grid$X, grid$Y)
 
 current_year <- format(Sys.Date(), "%Y")
